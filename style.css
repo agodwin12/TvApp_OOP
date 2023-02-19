@@ -1,0 +1,180 @@
+.colortable{
+    border-collapse: collapse;
+    width: 60em;
+    background-color: #baeeff;
+    border-radius: 1px;
+    margin: 10px auto;
+    border: black;
+    border-style: solid;
+    border-top: 0;
+
+}
+
+.colortable2{
+    border-collapse: collapse;
+    width: 80em;
+    background-color: cadetblue;
+    border-radius: 2px;
+    margin: 10px auto;
+    border: green;
+    height: 40px;
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: red;
+    color: cadetblue;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 90%;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+.btn {
+    background-color: green;
+    color: cadetblue;
+    padding: 15px 20px;
+    border: green;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 2;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 25px;
+}
+.namesize{
+    color: white;
+    background-color: white;
+}
+.size2{
+    height: 100px;
+    background-color: #19a3bd;
+}
+.size3{
+    height: 300px;
+
+}
+.size4{
+    height: 50px;
+    background-color:  #19a3bd;
+}
+.size5{
+    height: 90px;
+    background-color:  #19a3bd;
+}
+.colortable3{
+    border-collapse: collapse;
+    width: 50em;
+    background-color: cadetblue;
+    border-radius: 2px;
+    margin: 10px auto;
+    height: 40px;
+}
+
+.field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: cadetblue;
+}
+.icon2 {
+    padding: 10px;
+    background: cadetblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.colortable3{
+    border-collapse: collapse;
+    width: 50em;
+    background-color: rgb(39, 39, 46);
+    border-radius: 2px;
+    margin: 10px auto;
+    border: green;
+
+}
+.colortable4{
+    border-collapse: collapse;
+    width: 50em;
+    background-color:cadetblue;
+    border-radius: 2px;
+    margin: 10px auto;
+    border: blue;
+    border-bottom: 0;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: cadetblue;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.grid-item {
+    background-color: cadetblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.mystyle {
+    width: 350px;
+    height: 170px;
+    margin: 10px;
+}
+.content{
+    background-color: cadetblue;
+}
