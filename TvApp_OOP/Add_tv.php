@@ -1,4 +1,18 @@
-<?php include 'header.php';
+<?php
+include 'header.php';
+include 'dbconnection.php';
+
+
+if (isset($_POST['add'])){
+    $name= $_POST['name'];
+    $number = $_POST['number'];
+    $author = $_POST['author'];
+
+    $obj = new dbconnection();
+    $obj->insert($name,$number,$author);
+
+}
+
 
 
 
@@ -16,21 +30,11 @@
     <title>Document</title>
 </head>
 <body>
-<form class="form-inline" action="/action_page.php">
-    <div class="form-group">
-        <label for="">Tv Name:</label>
-        <input type="name" class="form-control" id="name" placeholder="Enter Tv Name" name="name">
-    </div>
-    <br><br>
-    <div class="form-group">
-        <label for="pwd">Tv Number:</label>
-        <input type="number" class="form-control" id="pwd" placeholder="Enter Tv number" name="num">
-    </div>
-    <br><br>
-    <div class="form-group">
-        <label for="pwd">TV Author:</label>
-        <input type="name" class="form-control" id="pwd" placeholder="Enter Author" name="auth">
-    </div>
+<form class="form-inline" action="" method="post">
+
+    <label for="">Tv Name:</label>:        <input type="name" class="form-control" id="name" placeholder="Enter Tv Name" name="name">
+    <label for="pwd">Tv Number:</label>: <input type="number" class="form-control" id="pwd" placeholder="Enter Tv number" name="number">
+    <label for="pwd">TV Author:</label>:        <input type="name" class="form-control" id="pwd" placeholder="Enter Author" name="author">
 
     <button type="submit" class="btn btn-default" name="add">ADD</button>
 </form>
